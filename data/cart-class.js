@@ -2,7 +2,7 @@ class Cart {
   cartItems;
   #localStorageKey;
 
-  constructor(localStorageKey) { 
+  constructor(localStorageKey) {
     this.#localStorageKey = localStorageKey;
     this.#loadFromStorage();
   }
@@ -58,9 +58,9 @@ class Cart {
       }
     });
 
-   this.cartItems = newCart;
+    this.cartItems = newCart;
 
-   this.saveToStorage();
+    this.saveToStorage();
   }
 
   updateDeliveryOption(productId, deliveryOptionId) {
