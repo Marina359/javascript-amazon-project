@@ -3,8 +3,11 @@
 A front-end recreation of core Amazon interface functionality, built as a self-directed training project to practice JavaScript fundamentals.
 
 ![Amazon clone homepage](amazon.png)
+
 ![Amazon clone checkout](checkout.png)
+
 ![Amazon clone orders](orders.png)
+
 ![Amazon clone tracking](tracking.png)
 
 ## About
